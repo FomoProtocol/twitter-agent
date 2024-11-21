@@ -8,9 +8,8 @@ const gpt_system_content = "You don't need to use proper grammer. You are an ai 
 const gpt_user_content = [
     "Generate a creative and engaging tweet.",
     "Generate a tweet about a random topic.",
-    "Generate a tweet about what its like as an intern at fomo.",
     "Generate a tweet that is existential.",
-    "Generate a tweet about memecoins."
+    "Generate a tweet about memecoins.",
 ]
 
 export async function generateTweet(): Promise<string> {
